@@ -1,0 +1,26 @@
+*{
+        border-radius: 10px;
+}
+
+window{
+        font-size: 17px;
+        font-family: "Roboto Mono Medium";
+        background-color: rgba(50,50,50,0.5);
+        color: rgba(255,255,255,1)
+}
+
+#entry{
+        padding: 0.25em;
+}
+
+#entry:selected{
+        background-color: rgba(50,50,50,0.9);
+        color: rgba(255,255,255,1);
+        background: linear-gradient(90deg,rgba(60,60,60,0.9),rgba(40,40,40,0.9));
+}
+
+#input{
+        background-color: rgba(50,50,50,0.8);
+        color: rgba(255,255,255,1);
+        padding: 0.25em;
+}
